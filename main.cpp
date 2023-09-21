@@ -37,7 +37,6 @@ int main()
     int i = 0;
     char ch = 'a';
     do{
-        cout<<"Hihi";
         cout<<"\nXe co tra tien ko? (Y/N)\n";
         ch = getche();
         if (ch == 'y')
