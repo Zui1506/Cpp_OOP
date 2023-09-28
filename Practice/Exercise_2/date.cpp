@@ -1,6 +1,18 @@
-#include"date.h"
+#include "date.h"
+#include<iostream>
 
-void Dates::get_date()
+using namespace std;
+date::date()
+{
+    //ctor
+}
+
+date::~date()
+{
+    //dtor
+}
+
+void date::get_date()
 {
     cout<<"\nInput date/month/year:\n";
     cout<<"Date: ";
@@ -12,7 +24,7 @@ void Dates::get_date()
 
 }
 
-void Dates::show_date()
+void date::show_date()
 {
     cout<<"\n"<<this->day<<"/"<<this->month<<"/"<<this->year;
 }
