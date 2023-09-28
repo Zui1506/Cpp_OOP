@@ -32,6 +32,7 @@ std::istream& operator>>(std::istream& is, etype& obj) {
 }
 void employee::get_employ()
 {
+    cout<<"Input name of employee :";cin.get(this->name,30);  // cin.get : Nhap chuoi co khoang cach
     cout<<"Input ID employment: ";cin>>this->ID;
     cout<<"Input salary: ";cin>>this->salary;
     cout<<"Input position: ";cin>>this->position;
@@ -41,6 +42,7 @@ void employee::get_employ()
 
 void employee::put_employ()
 {
+    cout<<"\nName: "<<this->name;
     cout<<"\nID :"<<this->ID;
     cout<<"\nPosition: ";
     switch(this->position)
@@ -56,4 +58,3 @@ void employee::put_employ()
     cout<<"\nStart day:";
     this->start_day.show_date();
 }
-
