@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1695995143 source:c:\users\duynguyen\desktop\game_card\main.cpp
+	<iostream>
+	"Card.h"
+	"Deck.h"
+
+1695995488 source:c:\users\duynguyen\desktop\game_card\src\card.cpp
+	"Card.h"
+	<iostream>
+	<iomanip>
+
+1695995313 c:\users\duynguyen\desktop\game_card\include\card.h
+
+1695995744 source:c:\users\duynguyen\desktop\game_card\src\deck.cpp
+	"Deck.h"
+	"Card.h"
+	<ctime>
+
+1695995571 c:\users\duynguyen\desktop\game_card\include\deck.h
+	"Card.h"
+	<bits/stdc++.h>
+
